@@ -5,5 +5,5 @@ import seaborn as sns
 
 # Histogram Plot
 df = sns.load_dataset('tips')
-sns.displot(df['total_bill'], kde=False, bins=10)
+sns.histplot(df['total_bill'], kde=False, bins=10)
 plt.show()
