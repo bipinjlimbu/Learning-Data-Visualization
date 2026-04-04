@@ -4,6 +4,8 @@ import matplotlib.pyplot as plt
 import seaborn as sns
 from ipl_csv import df
 
+# Percentage of matches where the toss winner also won the match
+
 check = df['match_winner'] == df['toss_winner']
 count = df[check]['match_id'].count()
 percentage = (count / df['match_id'].nunique()) * 100
