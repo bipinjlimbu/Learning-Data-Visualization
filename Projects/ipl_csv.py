@@ -7,3 +7,6 @@ if __name__ == "__main__":
     
     # Information about the DataFrame
     print(df.info())
+    
+    # Shape of the DataFrame
+    print(df.shape)
