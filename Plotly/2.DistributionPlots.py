@@ -20,3 +20,7 @@ fig.show()
 # Violin Plot
 fig = px.violin(tips, x='day', y='total_bill', color='sex', title='Violin Plot of Total Bill by Day and Gender')
 fig.show()
+
+# Density Heatmap
+fig = px.density_heatmap(tips, x='total_bill', y='tip', title='Density Heatmap of Total Bill vs Tip')
+fig.show()
