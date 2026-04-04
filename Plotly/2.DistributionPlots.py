@@ -16,3 +16,7 @@ fig.show()
 # Box Plot
 fig = px.box(tips, x='day', y='total_bill', color='sex', title='Box Plot of Total Bill by Day and Gender')
 fig.show()
+
+# Violin Plot
+fig = px.violin(tips, x='day', y='total_bill', color='sex', title='Violin Plot of Total Bill by Day and Gender')
+fig.show()
